@@ -16,6 +16,7 @@
 
   <ItemGroup>
     <Folder Include="Entities\" />
+    <PackageReference Include="StackExchange.Redis" Version="2.1.58" />
   </ItemGroup>
 
 </Project>
