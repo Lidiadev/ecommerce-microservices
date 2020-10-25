@@ -4,6 +4,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using Basket.API.Data;
 using Basket.API.Data.Interfaces;
+using Basket.API.Repositories;
+using Basket.API.Repositories.Interfaces;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -35,6 +37,7 @@ namespace Basket.API
             });
 
             services.AddTransient<IBasketContext, BasketContext>();
+            services.AddTransient<IBasketRepository, BasketRepository>();
 
             services.AddControllers();
         }
