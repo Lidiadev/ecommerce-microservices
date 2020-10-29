@@ -25,3 +25,14 @@ The ECommerce system is using a microservice oriented architecture with autonomo
 
 #### RabbitMQ messaging library:
 - Base EventBus implementation
+
+### How to run the solution
+1. Clone the repository
+2. At the root directory which include docker-compose.yml files, run the command:
+``` 
+docker-compose -f docker-compose.yml -f docker-compose.override.yml up –d
+``` 
+4. Launch microservices:
+- RabbitMQ: http://localhost:15672/
+- Catalog API: http://localhost:8000/swagger/index.html
+- Basket API: http://localhost:8001/swagger/index.html
