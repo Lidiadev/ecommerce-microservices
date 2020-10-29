@@ -1,4 +1,11 @@
-Microservices with ASP.NET Web API, RabbitMQ, Ocelot API Gateway, SQL Server, MangoDB, Redis and Docker
+Microservices implemented using:
+- ASP.NET Core Web API
+- RabbitMQ
+- Ocelot API Gateway
+- SQL Server
+- MangoDB
+- Redis
+- Docker
 
 ### Architecture overview 
 
