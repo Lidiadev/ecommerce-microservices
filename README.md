@@ -26,6 +26,11 @@ The ECommerce system is using a microservice oriented architecture with autonomo
 #### RabbitMQ messaging library:
 - Base EventBus implementation
 
+### Prerequirements
+- Visual Studio 2019
+- .NET Core 3.0.1 SDK
+- Docker Desktop
+
 ### How to run the solution
 1. Clone the repository
 2. At the root directory which include docker-compose.yml files, run the command:
